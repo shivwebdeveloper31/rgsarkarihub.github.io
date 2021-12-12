@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>header page</title>
+ 
+</head>
+
+<body>
+  <div id="header">
+    <div class="logo-part">
+      <div class="logo-leftpart">
+        <img src="RG Sarkari Hub logo.png">
+      </div>
+      <div class="logo-rightpart">
+        RG SARKARI HUB
+      </div>
+    </div>
+    <!-- navbar -->
+    <div class="topnav" id="myTopnav">
+      <a href="/index.html" class="active">Home</a>
+      <a href="/govt/govt.html">Govt. Job</a>
+      <a href="/private/private.html">Private. Job</a>
+      <a href="/syllabus/syllabus.html">Syllabus</a>
+      <a href="/Admit card/Admit card.html">Admit card</a>
+      <a href="/result/result.html">Result</a>
+      <a href="#contact">Admission</a>
+      <a href="#contact">Question Paper</a>
+      <a href="/E-books/E-book.html">E-Books</a>
+      <div class="dropdown">
+        <button class="dropbtn">Aptitute
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Quantitative</a>
+          <a href="#">Verbal Ability</a>
+          <a href="#">Reasoning</a>
+          <a href="#">General Knowledge</a>
+          <a href="#">Current Affairs</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Online Test
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Quantitative Test</a>
+          <a href="#">Verbal Ability Test</a>
+          <a href="#">Reasoning Test</a>
+          <a href="#">GK Test</a>
+        </div>
+      </div>
+      <a href="#contact">Blog</a>
+      <div class="dropdown">
+        <button class="dropbtn">Company
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">About Us</a>
+          <a href="#">Contact</a>
+          <a href="#">Term and Condition</a>
+        </div>
+      </div>
+      <!-- <a href="#about">About</a> -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </div>
+</body>
+
+</html>

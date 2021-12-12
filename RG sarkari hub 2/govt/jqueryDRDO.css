@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+h2{
+    border: black;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: red;
+}
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+li{
+    margin-left: 20px;
+    padding-block: 5px;
+}
+
+
+.Container{
+    border: 1px solid black;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: auto;
+}
+
+.first{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.table{
+    width: 100%
+}
